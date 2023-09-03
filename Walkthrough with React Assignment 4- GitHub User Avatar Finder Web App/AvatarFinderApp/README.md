@@ -1,8 +1,9 @@
-# React + Vite
+# GitHub User Avatar Finder Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Objective:
+Develop a web application using React that allows users to input a GitHub username. Upon user input, the app
+should display the avatar of the user fetched from the GitHub API. The app should incorporate debouncing to
+enhance user experience and prevent excessive API calls. To implement debouncing, create a custom hook
+called useDebounce.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
